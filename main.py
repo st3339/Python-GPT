@@ -1,5 +1,6 @@
 import openai
 import time
+import os
 
-openai.api_key = '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'
+api_key = os.apikey.get('API_KEY')
 
